@@ -45,9 +45,9 @@ if __name__ == '__main__':
     print(f"list: {find_fast_collatz_conjecture_for_all(20)}")
 
     start = datetime.now()
-    find_fast_collatz_conjecture_for_all(10000)
+    find_fast_collatz_conjecture_for_all(3)
     print(f"time needed for fast algo {datetime.now()-start}")
 
     start = datetime.now()
-    task2.find_collatz_conjecture_for_all(10000)
+    task2.find_collatz_conjecture_for_all(3)
     print(f"time needed for normal algo {datetime.now()-start}")

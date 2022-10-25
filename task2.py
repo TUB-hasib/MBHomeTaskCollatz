@@ -16,4 +16,4 @@ def find_collatz_conjecture_for_all(number):
 
 
 if __name__ == '__main__':
-    print(find_collatz_conjecture_for_all(100))
+    print(find_collatz_conjecture_for_all(10))

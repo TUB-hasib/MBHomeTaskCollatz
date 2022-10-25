@@ -19,4 +19,4 @@ def create_diargam_for_steps_of_collatz_conjecture(number):
 
 
 if __name__ == '__main__':
-    create_diargam_for_steps_of_collatz_conjecture(10)
+    create_diargam_for_steps_of_collatz_conjecture(100)
