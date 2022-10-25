@@ -1,4 +1,3 @@
-
 def is_even(number):
     """input: int number
     output: bool. true for even. false for odd num"""
@@ -6,6 +5,7 @@ def is_even(number):
         return True
     else:
         return False
+
 
 """
 def find_steps_and_path_collatz_conjecture(number):
@@ -27,6 +27,7 @@ def find_steps_and_path_collatz_conjecture(number):
         total_steps = total_steps + 1
     return [total_steps, paths]
 """
+
 
 def find_steps_of_collatz_conjecture(number):
     """input: int number
